@@ -3,7 +3,10 @@ body {
     padding: 0px;
     font-family: Poppins;
 }
-
+@font-face {
+    font-family: All Round Gothic;
+    src: url(../FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
+  }
 * {
     box-sizing: border-box;
 }
@@ -147,6 +150,46 @@ nav ul li a{
     margin-right: 50px;
 }
 
+.specialist-white-text {
+    position: relative;
+    float: left;
+}
+
+.sp-content {
+    float: right;
+    position: absolute;
+    object-position: bottom right;
+    left: 1040px;
+    margin-top: 200px;
+}
+
+.dak {
+    color: #304DE5;
+    opacity: 1;
+    text-align: left;
+}
+
+.licht {
+    text-align: left;
+    opacity: 1;
+    color: #1C1B21;
+    font-family: All Round Gothic;
+}
+
+.sp-content p {
+    text-align: left;
+}
+
+.sp-link, 
+.sp-link img {
+    color: #304DE5;
+}
+
+.sp-link img {
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+}
 
 .white-bg {
     width: 100%;
@@ -162,6 +205,8 @@ nav ul li a{
     object-fit: contain;
     object-position: bottom left;
     position: absolute;
+    right: 80px;
+    margin-top: 40px;
 }
 
 .blue-nav {
