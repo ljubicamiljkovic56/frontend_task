@@ -4,7 +4,7 @@ body {
     font-family: Poppins;
 }
 @font-face {
-    font-family: All Round Gothic;
+    font-family: AllRoundGothic;
     src: url(../FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
   }
 * {
@@ -167,13 +167,14 @@ nav ul li a{
     color: #304DE5;
     opacity: 1;
     text-align: left;
+    font-family: AllRoundGothic;
 }
 
 .licht {
     text-align: left;
     opacity: 1;
     color: #1C1B21;
-    font-family: All Round Gothic;
+    font-family: AllRoundGothic;
 }
 
 .sp-content p {
@@ -478,11 +479,94 @@ nav ul li a{
 }
 
 
-/* .footer {
-    width: 100%;
-    background-size: cover;
-    background-position: top left;
+.footer {
+    background: #1C1B21;
+    color: #706E7E;
+    height: 500px;
     position: relative;
-    background: #1C1B21 0% 0% no-repeat padding-box;
+    top: 800px;
+}
+
+
+.footer-content img {
+    margin-top: 65px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+
+.footer-assortiment {
+    margin-left: 80px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.footer-assortiment h3 {
+    text-align: left;
+    font-family: AllRoundGothic;
+    height: 24px;
+    color: #FFFFFF;
+}
+
+.footer-assortiment ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-assortiment ul li a {
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #B7BFEA;
     opacity: 1;
-} */
+}
+
+.footer-bezoek {
+    float: right;
+    margin-left: 50px;
+}
+ 
+.footer-bottom {
+    background: #1C1B21;
+    color: #706E7E;
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+}
+
+.line {
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.footer-bottom p {
+    margin-left: 80px;
+    width: 40%;
+    font: normal normal normal 12px/18px Poppins;
+    color: #B7BFEA;
+}
+
+.footer-bottom ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-bottom ul li a{
+    text-align: left;
+    font: normal normal normal 12px/18px Poppins;
+    letter-spacing: 0px;    
+    color: #B7BFEA;
+    opacity: 1;
+    margin: 8px;
+    padding: 0px 22px;
+    display: flex;
+    float: right;
+    left: 1103px;
+    width: 100%
+}
