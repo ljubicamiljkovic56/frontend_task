@@ -294,7 +294,7 @@ nav ul li a{
 }
 
 .een-text {
-    margin-left: 100px;
+    margin-left: 260px;
     margin-top: 200px;
     display: inline-block;
 }
@@ -332,13 +332,24 @@ nav ul li a{
     color: #304DE5;
 }
 
-.een-img {
-    width: 100%;
-    height: 100%;
+.een-image {
+    float: left;
+    width: 590px;
+    height: 600px;
     object-fit: contain;
     object-position: top;
-    position: relative;
+    position: absolute;
+    margin-top: 100px;
+    right: 800px;
 }
+
+.een-image img {
+    width: 100%;
+    height: 100%;;
+    object-fit: contain;
+    position: absolute;
+
+} 
 
 .steeds {
     width: 100%;
