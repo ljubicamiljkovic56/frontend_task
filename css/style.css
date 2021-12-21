@@ -3,6 +3,7 @@ body {
     padding: 0px;
     font-family: Poppins;
 }
+/*font koji je downloadovan, a zatim importovan - All Round Gothic*/
 @font-face {
     font-family: AllRoundGothic;
     src: url(../FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
@@ -30,6 +31,7 @@ a {
     url('../images/Mask\ Group\ 8.png');
 }
 
+/*prva sekcija*/
 .logo img {
     top: 36px;
     left: 201px;
@@ -140,7 +142,7 @@ nav ul li a{
 .specialist-white-bg {
     top: 186px;
     left: 960px;
-    width: 700px;
+    width: 718px;
     height: 500px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -159,7 +161,7 @@ nav ul li a{
     float: right;
     position: absolute;
     object-position: bottom right;
-    left: 1040px;
+    left: 1060px;
     margin-top: 200px;
 }
 
@@ -239,6 +241,7 @@ nav ul li a{
     margin-right: 8px;
 }
 
+/*druga sekcija*/
 .gamma {
     width: 100%;
     background-size: cover;
@@ -320,6 +323,7 @@ nav ul li a{
 
 }
 
+/*treca sekcija*/
 .een {
     margin-top: 100px;
     width: 100%;
@@ -397,6 +401,7 @@ nav ul li a{
 
 } 
 
+/*cetvrta sekcija*/
 .steeds {
     width: 100%;
     background-size: cover;
@@ -478,7 +483,7 @@ nav ul li a{
     margin-top: 240px;
 }
 
-
+/*peta sekcija footer*/
 .footer {
     background: #1C1B21;
     color: #706E7E;
@@ -520,11 +525,8 @@ nav ul li a{
     opacity: 1;
 }
 
-.footer-bezoek {
-    float: right;
-    margin-left: 50px;
-}
  
+/*dno footera*/
 .footer-bottom {
     background: #1C1B21;
     color: #706E7E;
@@ -571,6 +573,7 @@ nav ul li a{
     width: 100%
 }
 
+/* responsive do 1024 px */
 @media(max-width:1024px) {
     nav {
         justify-content: space-between;
@@ -657,11 +660,11 @@ nav ul li a{
     }
 
     .steeds {
-        top: 670px;
+        margin-top: 200px;
     }
 
     .steeds-content {
-        margin-top: -10%;
+        margin-top: 60%;
     }
 
     .steeds-image {
@@ -669,10 +672,54 @@ nav ul li a{
     }
 
     .steeds-text h1{
-        margin-bottom: 90px;
+        margin-bottom: 60px;
     }
 
     .steeds-image {
+        display: none;
+    }
+
+
+    .footer-black {
+        margin-top: 550px;
+    }
+
+    .footer {
+        margin-top: 300px;
+    }
+
+    .footer-content img {
+        margin-top: 40px;
+        align-self: center;
+        margin-left: 315px;
+        height: 20px;
+        width: 25%;
+    }
+
+
+    .footer-assortiment {
+        align-self: center;
+        align-content: space-around;
+    }
+
+    .footer-assortiment h3 {
+        align-self: center;
+        text-align: center;
+        margin-left: 290px;
+    }
+
+    .footer-assortiment ul li a {
+        text-align: center;
+        margin-left: 290px;
+    }
+
+    .footer-bottom p{
+        width: 100%;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .footer-bottom ul li a {
         display: none;
     }
 }
