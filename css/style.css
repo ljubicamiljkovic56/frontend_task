@@ -152,7 +152,7 @@ nav ul li a{
 
 .specialist-white-text {
     position: relative;
-    float: left;
+    float: right;
 }
 
 .sp-content {
@@ -340,7 +340,7 @@ nav ul li a{
 }
 
 .een-text {
-    margin-left: 260px;
+    margin-left: 290px;
     margin-top: 200px;
     display: inline-block;
 }
@@ -390,8 +390,8 @@ nav ul li a{
 }
 
 .een-image img {
-    width: 100%;
-    height: 100%;;
+    width: 90%;
+    height: 90%;;
     object-fit: contain;
     position: absolute;
 
@@ -569,4 +569,110 @@ nav ul li a{
     float: right;
     left: 1103px;
     width: 100%
+}
+
+@media(max-width:1024px) {
+    nav {
+        justify-content: space-between;
+        height: 90px;
+        width: 100%;
+    }
+
+    .logo img {
+        margin-left: 30px;
+    }
+
+    nav ul {
+        margin-right: 150px;
+    }
+
+    .main {
+        height: 100%;
+    }
+
+    .specialist-content {
+        margin-top: 200px;
+        display: inline-block;
+    }
+    
+    .specialist-text {
+        margin-bottom: 400px;
+        margin-left: 45%;
+    }
+
+    .specialist-white-bg {
+        width: 200px;
+        height: 200px;
+        display: none;
+    }
+
+    .window {
+        width: 20%;
+        height: 20%;
+    }
+
+    .gamma {
+        margin-top: 65px;
+    }
+
+    .gamma-content {
+        width: 60%;
+        height: 30px;
+        margin-left: 12%;
+    }
+
+    .gamma-header {
+        display: inline-block;
+    }
+
+    .gamma-text {
+        margin-left: 30px;
+        margin-top: 170px;
+        padding: 15px;
+    
+    }
+
+    .een-image{
+        display: block;
+        width: 420px;
+        height: 380px;
+        right: 20px;
+        top: 430px;
+    }
+
+
+    .een-text {
+        display: inline;
+        margin-left: 100px;
+    }
+
+    .een-text h1 {
+        font-family: Poppins;
+        font-size: 50px;
+        margin-left: 30px;
+    }
+
+    .een-text p, .een-button {
+        margin-left: 30px;
+    }
+
+    .steeds {
+        top: 670px;
+    }
+
+    .steeds-content {
+        margin-top: -10%;
+    }
+
+    .steeds-image {
+        display: none;
+    }
+
+    .steeds-text h1{
+        margin-bottom: 90px;
+    }
+
+    .steeds-image {
+        display: none;
+    }
 }
